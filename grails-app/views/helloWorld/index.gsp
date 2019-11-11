@@ -129,7 +129,7 @@
 <body>
 
 <div class="signup-form">
-    <form action="index" controller="helloWorld" class="form-horizontal">
+    <form action="save" controller="helloWorld" class="form-horizontal">
         <div class="col-xs-8 col-xs-offset-4">
         </div>
         <div class="col-xs-8 col-xs-offset-4">
@@ -186,6 +186,7 @@
             <div class="col-md-12 text-center">
                 <button type="submit" class="btn btn-primary btn-lg">Resister</button>
                 <button type="reset" class="btn btn-primary btn-lg">Cancel</button>
+                <a class="dropdown-item" href="http://localhost:8080/home/index">Login Now</a>
             </div>
         </div>
     </form>
