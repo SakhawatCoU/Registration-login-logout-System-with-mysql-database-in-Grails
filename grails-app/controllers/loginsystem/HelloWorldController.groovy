@@ -11,7 +11,7 @@ class HelloWorldController {
         def practiceGSP = new UserInfo(params)
         practiceGSP.password = practiceGSP.password.encodeAsMD5()
         practiceGSP.save()
-        redirect(controller:'home', action: 'index')
+        redirect(controller:'helloWorld', action: 'index')
     }
     def checkAvailable = {
         def available
